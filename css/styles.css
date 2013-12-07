@@ -9,3 +9,9 @@ body {
 .panel{
 	
 }
+
+hr {
+	color:#a1a1a1;
+	background-color:#a1a1a1;
+	height:2px;
+}
