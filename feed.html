@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/styles.css"/>
 
   </head>
-  <body>
+  <body id = "footer_bottom">
     
     <!-- Navigation -->
  
@@ -25,7 +25,7 @@
       <!-- Title Area -->
       <li class="name">
         <h1>
-          <a href="http://foundation.zurb.com/templates/marketing.html#">
+          <a href="Home.html">
             Seattle Events
           </a>
         </h1>
@@ -72,7 +72,7 @@
     <div class="large-4 columns ">
       <div class="panel">
         <a href="#"><img src="http://placehold.it/300x240&text=[img]" /></a>
-        <h5><a href="#concert">Top</a></h5>
+        <h5><a href="#footer_bottom">Top</a></h5>
           <div class="section-container vertical-nav" data-section data-options="deep_linking: false; one_up: true">
           <section class="section">
             <h5 class="title"><a href="#concert">Concerts</a></h5>
@@ -124,10 +124,6 @@
               </form>
 
              </p>
-             <ul class="inline-list">
-              <li><a href="">Reply</a></li>
-              <li><a href="">Share</a></li>
-            </ul>
           </div>
         </div>
         <!-- End Feed Entry -->
@@ -143,21 +139,22 @@
 
   <!-- Footer -->
 
-  <footer class="row">
-    <div class="large-12 columns">
+  <footer id = "footer">
+    <div class="large-12 columns" id = "footer2">
       <hr />
-      <div class="row">
-        <div class="large-5 columns">
+      <div class="row footer">
+        <div class="large-5 columns hide-for-small">
           <p>&copy; Copyright no one at all. Go to town.</p>
         </div>
-        <div class="large-7 columns">
+        <div class="large-2 columns" style = "text-align:center">
+          <a href="#footer_bottom">Top</a>
+        </div>
+        <div class="large-5 columns hide-for-small">
           <ul class="inline-list right">
-            <li><a href="#">Section 1</a></li>
-            <li><a href="#">Section 2</a></li>
-            <li><a href="#">Section 3</a></li>
-            <li><a href="#">Section 4</a></li>
-            <li><a href="#">Section 5</a></li>
-            <li><a href="#">Section 6</a></li>
+            <li><a href="#concert">Concert</a></li>
+            <li><a href="#educations">Educations</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#community">Community</a></li>
           </ul>
         </div>
       </div>

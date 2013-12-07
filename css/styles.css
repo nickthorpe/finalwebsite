@@ -6,8 +6,26 @@
 body {
 	background-image:url('../img/background2.png');
 }
+
+#footer_bottom {
+		padding-bottom:96px;
+}
 .panel{
 	
+}
+
+.footer {
+	width:100%;
+	max-width:100%;
+}
+
+#footer {
+	bottom:0px;
+	right:0;
+	left:0;
+	width:100%;
+	background-image:url('../img/background2.png');
+	position:fixed;
 }
 
 hr {
