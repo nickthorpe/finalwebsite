@@ -2,8 +2,6 @@
 // render the list of events
 
 $(function(){
-    // render the fisrt 
-    // alert("s");
     render(Events.Concert, '.events_concert');
     render(Events.Education, '.events_education');
 
@@ -28,10 +26,9 @@ function render(entries, type){
             href: 'http://maps.google.com/maps?q=' + this.address
 
         });
-
-        instance.find('.url').html(this.url);
+        
         instance.find('.url').attr({
-            href: this.url
+            action: this.url
         });
 
         instance.find('.pic').attr({
