@@ -2,6 +2,10 @@
 .template {
     display: none;
 }
+
+body {
+	background-image:url('../img/background2.png');
+}
 .panel{
 	
 }
