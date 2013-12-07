@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation Template | Feed</title>
-
     
     <meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more." />
     
@@ -13,87 +12,45 @@
     <meta name="copyright" content="ZURB, inc. Copyright (c) 2013" />
 
     <link rel="stylesheet" href="http://foundation.zurb.com//assets/css/templates/foundation.css" />
-    <script src="http://foundation.zurb.com//assets/js/modernizr.js"></script>
+    <!-- <script src="http://foundation.zurb.com//assets/js/modernizr.js"></script> -->
+    <link rel="stylesheet" href="css/styles.css"/>
+
   </head>
   <body>
     
-<!-- Navigation -->
- 
-  <nav class="top-bar" data-topbar>
-    <ul class="title-area">
-      <!-- Title Area -->
-      <li class="name">
-        <h1>
-          <a href="#">
-            Top Bar Title
-          </a>
-        </h1>
-      </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-    </ul>
- 
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <ul class="right">
-        <li class="divider"></li>
-        <li class="has-dropdown">
-          <a href="#">Main Item 3</a>
-          <ul class="dropdown">
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li class="divider"></li>
-            <li><a href="#">See all &rarr;</a></li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-  </nav>
- 
-  <!-- End Top Bar -->
-
 
  <!-- Header and Nav -->
 
   <div class="row">
     <div class="large-12 columns">
       <div class="panel">
-        <h1>Feed Template</h1>
+        <h1>EVENTS</h1>
       </div>
     </div>
   </div>
 
   <!-- End Header and Nav -->
 
-
   <div class="row">
-
-
 
  <!-- Nav Sidebar -->
     <!-- This is source ordered to be pulled to the left on larger screens -->
     <div class="large-4 columns ">
       <div class="panel">
         <a href="#"><img src="http://placehold.it/300x240&text=[img]" /></a>
-        <h5><a href="#">Your Name</a></h5>
+        <h5><a href="#concert">Top</a></h5>
           <div class="section-container vertical-nav" data-section data-options="deep_linking: false; one_up: true">
           <section class="section">
-            <h5 class="title"><a href="#">Section 1</a></h5>
+            <h5 class="title"><a href="#concert">Concerts</a></h5>
           </section>
           <section class="section">
-            <h5 class="title"><a href="#">Section 2</a></h5>
+            <h5 class="title"><a href="#education">Educations</a></h5>
           </section>
           <section class="section">
-            <h5 class="title"><a href="#">Section 3</a></h5>
+            <h5 class="title"><a href="#sport">Sports</a></h5>
           </section>
           <section class="section">
-            <h5 class="title"><a href="#">Section 4</a></h5>
-          </section>
-          <section class="section">
-            <h5 class="title"><a href="#">Section 5</a></h5>
-          </section>
-          <section class="section">
-            <h5 class="title"><a href="#">Section 6</a></h5>
+            <h5 class="title"><a href="#community">Community</a></h5>
           </section>
         </div>
 
@@ -102,53 +59,39 @@
     
     <!-- Main Feed -->
     <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
-    <div class="large-8 columns" id = "main">
+    <div class="large-8 columns">
 
-      <!-- Feed Entry -->
-      <div class="row">
-        <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]" /></div>
-        <div class="large-10 columns">
-          <p><strong>Some Person said:</strong> Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
-          <ul class="inline-list">
-            <li><a href="">Reply</a></li>
-            <li><a href="">Share</a></li>
-          </ul>
+      
+
+      <div class="events_concert" id="concert"></div>
+      <div class="events_education" id="education"></div>
+      <div class="events_sport" id="sport"></div>
+      <div class="events_community" id="community"></div>
+
+
+      <!-- Feed Entry -->      
+
+      <div class="template">
+        <div class="row">
+          <div class="large-2 columns small-3">
+            <img class="pic" src="" alt=""/>
+          </div>
+          <div class="large-10 columns">
+             <h2 class="name"></h2>
+             <p> <span class="date"></span>  |  <span class="time"></span></p>
+             <p> Address : <a href="" class="address" target="_blank" ></a></p>
+             <p> Link : <a href="" class="url" target="_blank"></a></p>
+             <ul class="inline-list">
+              <li><a href="">Reply</a></li>
+              <li><a href="">Share</a></li>
+            </ul>
+          </div>
         </div>
+        <!-- End Feed Entry -->
+        <hr />
       </div>
-      <!-- End Feed Entry -->
-
-      <hr />
-
-      <!-- Feed Entry -->
-      <div class="row">
-        <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]" /></div>
-        <div class="large-10 columns">
-          <p><strong>Some Person said:</strong> Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
-          <ul class="inline-list">
-            <li><a href="">Reply</a></li>
-            <li><a href="">Share</a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- End Feed Entry -->
-
-      <hr />
-
-      <!-- Feed Entry -->
-      <div class="row">
-        <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]" /></div>
-        <div class="large-10 columns">
-          <p><strong>Some Person said:</strong> Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
-          <ul class="inline-list">
-            <li><a href="">Reply</a></li>
-            <li><a href="">Share</a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- End Feed Entry -->
 
     </div>
-
     <!-- Right Sidebar -->
     <!-- On small devices this column is hidden -->
 
@@ -176,14 +119,23 @@
         </div>
       </div>
     </div>
-  </footer>
-    <script src="http://foundation.zurb.com//assets/js/jquery.js"></script>
-    <script src="http://foundation.zurb.com//assets/js/templates/foundation.js"></script>
-    <script>
-      $(document).foundation();
 
-      var doc = document.documentElement;
-      doc.setAttribute('data-useragent', navigator.userAgent);
-    </script>
+  </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="js/sort.js"></script>
+    <script src="js/event.js"></script>
+
+
+   <!--  // <script src="http://foundation.zurb.com//assets/js/jquery.js"></script>
+    // <script src="http://foundation.zurb.com//assets/js/templates/foundation.js"></script> -->
+    
+    <!--script>
+    //   $(document).foundation();
+
+    //   var doc = document.documentElement;
+    //   doc.setAttribute('data-useragent', navigator.userAgent);
+
+    // </script-->
   </body>
 </html>
