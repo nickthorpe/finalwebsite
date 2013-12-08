@@ -4,6 +4,8 @@
 $(function(){
     render(Events.Concert, '.events_concert');
     render(Events.Education, '.events_education');
+    render(Events.Sports, '.events_sports');
+    render(Events.Community, '.events_community');
 
 });
 
