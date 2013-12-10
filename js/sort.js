@@ -13,16 +13,12 @@ $(function(){
     //search 
     $('.search').click(function(){
         var input = $('.input').val();
-        // search for all the events
-        // search(Events.Concert,input);
-        // search(Events.Education,input);
-        // search(Events.Sports,input);
-        // search(Events.Community,input);
+        
     });
 
     $('.input').keyup(function() {
         
-        //empty the search list        
+        //empty the search list  
          $('.search_list').empty(); 
         var search_term = $(this).val().toLowerCase();
         // run the search
@@ -31,7 +27,12 @@ $(function(){
         search(Events.Education,search_term);
         search(Events.Community,search_term);
 
-    })
+    });
+
+    $('.search_list').click(function() {
+         $('.search_list').empty(); 
+         $('input').val("");
+     });//empty the search list  and input text
 
  
     $(window).scroll(function(){            

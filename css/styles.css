@@ -62,13 +62,13 @@ hr {
 	color:#fff;
 	cursor:pointer;
 	-moz-border-radius: 5px;
--webkit-border-radius: 5px;
--moz-box-shadow: 0 1px 3px rgba(0,0,0,0.40);
--webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.40);
-text-shadow: -1px -1px 0px rgba(0,0,0,0.15);
-background: #76bbc5 url('../images/overlay.png') left top repeat-x; /* fallback color + image */
-background-image: -moz-linear-gradient(100% 100% 90deg, #76bbc5, #9ecbd1);
-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9ecbd1), to(#76bbc5));
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.40);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.40);
+	text-shadow: -1px -1px 0px rgba(0,0,0,0.15);
+	background: #76bbc5 url('../images/overlay.png') left top repeat-x; /* fallback color + image */
+	background-image: -moz-linear-gradient(100% 100% 90deg, #76bbc5, #9ecbd1);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9ecbd1), to(#76bbc5));
 }
 
 .pretty_button:hover {
@@ -78,3 +78,4 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9ecbd1), to(#76
 .template_feature{
 	display: none;
 }
+
