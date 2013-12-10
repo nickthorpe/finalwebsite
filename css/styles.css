@@ -6,7 +6,7 @@
 body {
 	background-image:url('../img/background2.png');
 }
-
+	
 #footer_bottom {
 		padding-bottom:96px;
 }
@@ -78,4 +78,3 @@ hr {
 .template_feature{
 	display: none;
 }
-
