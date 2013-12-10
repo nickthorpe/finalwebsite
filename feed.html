@@ -30,7 +30,7 @@
           </a>
         </h1>
       </li>
-      <li class="toggle-topbar menu-icon"><a href="Home.html#"><span>menu</span></a></li>
+      <li class="toggle-topbar menu-icon"><a href=""><span>menu</span></a></li> 
     </ul>
  
     
@@ -39,7 +39,7 @@
       <ul class="right">
        <li class="divider"></li>
         <li class="has-dropdown not-click">
-          <a href="Home.html#">Event Categories</a>
+          <a href="feed.html">Event Categories</a>
           <ul class="dropdown">
             <li><a href="feed.html#concert">Concerts</a></li>
             <li><a href="feed.html#education">Education</a></li>
@@ -69,9 +69,9 @@
 
  <!-- Nav Sidebar -->
     <!-- This is source ordered to be pulled to the left on larger screens -->
-    <div class="large-4 columns ">
+    <div class="large-4 columns" id="scrollingDiv">
       <div class="panel test hide-for-small hide-for-medium">
-        <a href="#"><img class = "image" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Space_Needle_2011-07-04.jpg/250px-Space_Needle_2011-07-04.jpg" alt="space needle"/></a>
+        <a href="#"><img class = "image" src="img/seattle.jpg" alt="space needle"/></a>
           <div class="section-container vertical-nav" data-section data-options="deep_linking: false; one_up: true">
           <section class="section">
             <h5 class="title"><a href="#concert">Concerts</a></h5>
@@ -160,7 +160,14 @@
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="js/sort.js"></script>
     <script src="js/event.js"></script>
+    <script src="./Home_files/jquery.js"></script>
+    <script src="./Home_files/foundation.js"></script>
+    <script>
+      $(document).foundation();
 
+      var doc = document.documentElement;
+      doc.setAttribute('data-useragent', navigator.userAgent);
+    </script>
 
    <!--  // <script src="http://foundation.zurb.com//assets/js/jquery.js"></script>
     // <script src="http://foundation.zurb.com//assets/js/templates/foundation.js"></script> -->

@@ -7,6 +7,13 @@ $(function(){
     render(Events.Sports, '.events_sports', 'sports');
     render(Events.Community, '.events_community', 'community');
     remove();
+    var $scrollingDiv = $("#scrollingDiv");
+ 
+        $(window).scroll(function(){            
+            $scrollingDiv
+                .stop()
+                .animate({"marginTop": ($(window).scrollTop() + 30) + "px"}, "slow" );          
+        });
 });
 
 //function to render the events
