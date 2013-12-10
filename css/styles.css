@@ -74,3 +74,7 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9ecbd1), to(#76
 .pretty_button:hover {
 	opacity:0.8;
 }
+
+.test {
+	position: fixed;
+}
