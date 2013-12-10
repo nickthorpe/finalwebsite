@@ -33,6 +33,20 @@
       <li class="toggle-topbar menu-icon"><a href=""><span>menu</span></a></li> 
     </ul>
  
+    <ul class="right">
+       <li class="has-form">
+        <div class="row collapse">
+          <div class="large-8 small-9 columns">
+            <input data-dropdown="drop1" class='input' type="text" placeholder="Find Events">
+          </div>
+          <div class="large-4 small-3 columns">
+            <a href="#" class="alert button expand search">Search</a>
+          </div>
+          <!-- dropdown -->
+          <ul id="drop1" class="f-dropdown search_list" data-dropdown-content></ul>
+        </div>
+      </li>
+    </ul>
     
   <section class="top-bar-section">
       <!-- Right Nav Section -->
@@ -110,7 +124,7 @@
       <div class="template">
         <div class="row">
           <div class="large-3 columns small-3">
-            <img class="pic" src="#" alt=""/>
+            <img class="pic" src="" alt=""/>
           </div>
           <div class="large-9 columns">
              <h2 class="name"></h2>
@@ -162,6 +176,7 @@
     <script src="js/event.js"></script>
     <script src="./Home_files/jquery.js"></script>
     <script src="./Home_files/foundation.js"></script>
+
     <script>
       $(document).foundation();
 

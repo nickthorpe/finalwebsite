@@ -34,7 +34,21 @@
       </li>
       <li class="toggle-topbar menu-icon"><a href="Home.html#"><span>menu</span></a></li>
     </ul>
- 
+  
+   <ul class="right">
+       <li class="has-form">
+        <div class="row collapse">
+          <div class="large-8 small-9 columns">
+            <input data-dropdown="drop1" class='input' type="text" placeholder="Find Events">
+          </div>
+          <div class="large-4 small-3 columns">
+            <a href="#" class="alert button expand search">Search</a>
+          </div>
+          <!-- dropdown -->
+          <ul id="drop1" class="f-dropdown search_list" data-dropdown-content></ul>
+        </div>
+      </li>
+    </ul>
     
   <section class="top-bar-section">
       <!-- Right Nav Section -->
@@ -209,6 +223,8 @@
     <script src="./Home_files/foundation.js"></script>
     <script src="js/sort_home_list.js"></script>
     <script src="js/event.js"></script>
+    <script src="js/sort.js"></script>
+
 
     <script>
       $(document).foundation();
