@@ -31,7 +31,7 @@ $(function(){
 
     $('.search_list').click(function() {
          $('.search_list').empty(); 
-         $('input').val("");
+         $('.input').val("");
      });//empty the search list  and input text
 
  
