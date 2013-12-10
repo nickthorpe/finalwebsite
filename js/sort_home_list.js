@@ -2,13 +2,13 @@
 // render the list of events
 
 $(function(){
-    render(Events.Concert, '.concert', 'concert');
-    render(Events.Education, '.education', 'education');
-    render(Events.Sports, '.sport', 'sports');
+    renderHome(Events.Concert, '.concert', 'concert');
+    renderHome(Events.Education, '.education', 'education');
+    renderHome(Events.Sports, '.sport', 'sports');
 });
 
 //function to render the list of events on the home page
-function render(entries, type, indicator){
+function renderHome(entries, type, indicator){
 
     var tem= $('.template_feature');
     var events= $(type);

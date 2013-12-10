@@ -2,6 +2,7 @@
 // render the list of events
 
 $(function(){
+    // render the home list
     render(Events.Concert, '.events_concert', 'concert');
     render(Events.Education, '.events_education', 'education');
     render(Events.Sports, '.events_sports', 'sports');
@@ -29,7 +30,7 @@ $(function(){
         search(Events.Sports,search_term);
         search(Events.Education,search_term);
         search(Events.Community,search_term);
-        
+
     })
 
  
