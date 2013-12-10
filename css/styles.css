@@ -3,8 +3,16 @@
     display: none;
 }
 
-body {
+body{
 	background-image:url('../img/background2.png');
+}
+
+hr{
+	color:#a1a1a1;
+	background-color:#a1a1a1;
+	height:2px;
+	border: solid;	
+	border-width: 1px;
 }
 	
 #footer_bottom {
@@ -31,12 +39,6 @@ body {
 	width:100%;
 	background-image:url('../img/background2.png');
 	position:fixed;
-}
-
-hr {
-	color:#a1a1a1;
-	background-color:#a1a1a1;
-	height:2px;
 }
 
 .size_up {
@@ -78,3 +80,4 @@ hr {
 .template_feature{
 	display: none;
 }
+	
