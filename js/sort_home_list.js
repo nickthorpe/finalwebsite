@@ -3,7 +3,7 @@
 
 $(function(){
     render(Events.Concert, '.concert', 'concert');
-    render(Events.Education, '.education', 'educations');
+    render(Events.Education, '.education', 'education');
     render(Events.Sports, '.sport', 'sports');
 });
 
